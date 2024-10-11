@@ -232,9 +232,9 @@ Get a list of assets owned by an address. This is the fastest way to get all the
 ```ts
 import { Helius } from "helius-sdk";
 
-const helius = new Helius("YOUR_API_KEY");
+const helius = new Helius("ba62067f-6a54-47b8-819e-6f6e8b318c38");
 const response = await helius.rpc.getAssetsByOwner({
-  ownerAddress: "86xCnPeV69n6t3DnyGvkKobf9FdN2H9oiVDdaMpo2MMY",
+  ownerAddress: "CwmtHGNPppsrR2o6VaFrC4d4vX4fKA8mfsJumAxYBdZs",
   page: 1,
 });
 console.log(response.items);
